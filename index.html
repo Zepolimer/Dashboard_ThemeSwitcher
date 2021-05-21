@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+
+  <body class="light">
+    <div class="main-container">
+      <div class="header">
+        <h1 class="whitetext">Social Media Dashboard</h1>
+        <p class="greyDark">Total Followers: 23,004</p>
+        <div class="darkMode">
+          <p class="greyDark">Dark Mode</p>
+          <label class="switch">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="gridlayout">
+        <div class="fb-container card">
+          <div class="socialUser">
+            <img
+              class="socialLogo"
+              src="./images/icon-facebook.svg"
+              alt="Facebook logo"
+            />
+            <div class="username greyDark">@nathanf</div>
+          </div>
+          <div class="number whitetext">1987</div>
+          <div class="followers greyDark">followers</div>
+          <div class="stats">
+            <img src="./images/icon-up.svg" alt="+" />12 Today
+          </div>
+        </div>
+
+        <div class="twitter-container card">
+          <div class="socialUser">
+            <img
+              class="socialLogo"
+              src="./images/icon-twitter.svg"
+              alt="twitter logo"
+            />
+            <div class="username greyDark">@nathanf</div>
+          </div>
+          <div class="number whitetext">1044</div>
+          <div class="followers greyDark">followers</div>
+          <div class="stats">
+            <img src="./images/icon-up.svg" alt="+" />99 Today
+          </div>
+        </div>
+
+        <div class="insta-container card">
+          <div class="socialUser">
+            <img
+              class="socialLogo"
+              src="./images/icon-instagram.svg"
+              alt="instagram logo"
+            />
+            <div class="username greyDark">@realnathanf</div>
+          </div>
+          <div class="number whitetext">11k</div>
+          <div class="followers greyDark">followers</div>
+          <div class="stats">
+            <img src="./images/icon-up.svg" alt="+" />1099 Today
+          </div>
+        </div>
+
+        <div class="youtube-container card">
+          <div class="socialUser">
+            <img
+              class="socialLogo"
+              src="./images/icon-youtube.svg"
+              alt="youtube logo"
+            />
+            <div class="username greyDark">Nathan F.</div>
+          </div>
+          <div class="number whitetext">8239</div>
+          <div class="followers greyDark">followers</div>
+          <div class="stats red">
+            <img src="./images/icon-down.svg" alt="-" />144 Today
+          </div>
+        </div>
+      </div>
+
+      <!-- ******* PART WITH "OVERVIEW - TODAY" ******* -->
+      <div class="overview whitetext">Overview - Today</div>
+      <!-- ******* Facebook ******* -->
+      <div class="overviewGrid">
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Page Views</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-facebook.svg"
+            alt="Facebook logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">87</div>
+          <div class="overview-stats">
+            <img src="./images/icon-up.svg" alt="+" />3%
+          </div>
+        </div>
+      </div>
+
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Likes</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-facebook.svg"
+            alt="Facebook logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">52</div>
+          <div class="overview-stats red">
+            <img src="./images/icon-down.svg" alt="-" />2%
+          </div>
+        </div>
+      </div>
+
+      <!-- ******* Instagram ******* -->
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Likes</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-instagram.svg"
+            alt="Instagram logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">5462</div>
+          <div class="overview-stats">
+            <img src="./images/icon-up.svg" alt="+" />2257%
+          </div>
+        </div>
+      </div>
+
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Profile views</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-instagram.svg"
+            alt="Instagram logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">52k</div>
+          <div class="overview-stats">
+            <img src="./images/icon-up.svg" alt="+" />1375%
+          </div>
+        </div>
+      </div>
+
+      <!-- ******* Twitter ******* -->
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Retweets</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-twitter.svg"
+            alt="Twitter logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">117</div>
+          <div class="overview-stats">
+            <img src="./images/icon-up.svg" alt="+" />303%
+          </div>
+        </div>
+      </div>
+
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Likes</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-twitter.svg"
+            alt="Twitter logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">507</div>
+          <div class="overview-stats">
+            <img src="./images/icon-up.svg" alt="+" />553%
+          </div>
+        </div>
+      </div>
+
+      <!-- ******* Youtube ******* -->
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Likes</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-youtube.svg"
+            alt="Youtube logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">107</div>
+          <div class="overview-stats red">
+            <img src="./images/icon-down.svg" alt="-" />19%
+          </div>
+        </div>
+      </div>
+
+      <div class="owerview-container card">
+        <div class="firstRow">
+          <div class="title greyDark">Total Views</div>
+          <img
+            class="socialLogo"
+            src="./images/icon-youtube.svg"
+            alt="Youtube logo"
+          />
+        </div>
+        <div class="secondRow">
+          <div class="overview-number whitetext">1407</div>
+          <div class="overview-stats red">
+            <img src="./images/icon-down.svg" alt="-" />12%
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Zepolimer?tab=repositories" target="_blank"
+          >Remi Lopez</a
+        >.
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
