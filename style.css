@@ -225,10 +225,9 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 20px 20px;
-    align-items: baseline;
+    align-items: center;
 }
-.firstRow { padding-top: 20px; }
-.secondRow { padding-bottom: 20px; }
+
 .title {
     font-size: 13px;
     font-weight: 700;
